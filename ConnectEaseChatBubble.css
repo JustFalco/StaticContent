@@ -1,10 +1,22 @@
-* {
+.chat-bubble {
     position: absolute;
     z-index: auto;
     bottom: 0;
     right: 0;
 }
 
+.chat-bubble::before{
+    border-radius: 50%;
+    height: 8vw;
+    width: 8vw;
+}
+
+.chat-bubble::after{
+    border-radius: 0%;
+    height: 8vw;
+    width: 8vw;    
+}
+
 .background-orange {
-    background: orangered;
+    background-color: orangered;
 }
