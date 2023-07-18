@@ -1,0 +1,10 @@
+* {
+    position: absolute;
+    z-index: auto;
+    bottom: 0;
+    right: 0;
+}
+
+.background-orange {
+    background: orangered;
+}
